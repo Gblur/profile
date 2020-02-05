@@ -16,7 +16,7 @@
 @media (max-width: 500px) {
     /* For a screen < 960px, this CSS will be read */
     .container {
-      width: 400px;
+      width: 300px;
     }
   }
 
@@ -32,10 +32,10 @@ body h1 {
 
 div {
     background: rgba(245, 245, 245, 0.5);
-    padding: 50px;
+    padding: 10px;
     border-radius: 4px;
     box-shadow: 0 20px 15px rgba(204, 204, 204, 0.1);
-    margin: 30px 30px;
+    margin: 15px 15px;
     text-align: center;
 }
 .container{
@@ -44,6 +44,7 @@ div {
     font-family: 'Roboto', sans-serif;
     box-shadow: none;
     margin: 0px auto;
+    padding: 0px auto;
 }
 
 #profile-picture img {
